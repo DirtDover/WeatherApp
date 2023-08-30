@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/127f1efd54.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,500&display=swap" 
+    rel="stylesheet">
+    <link href="./style.css" rel="stylesheet" />
+
+    <title>Weather App</title>
+</head>
+<body>
+
+    <div class="main_container">
+        
+        <div class="search_container">
+            <i class="fa-solid fa-location-dot"></i>
+            <input type="text" placeholder="Entrez votre location"> 
+            <button class="fa-solid fa-magnifying-glass-location"></button>
+        </div>
+        <div class="error_container">
+            <img  class="error_img" src="./images/404.png" alt="image d'erreur">
+            <p class="error_message">Oops ! Localisation incorrecte :/</p>
+        </div>
+        <div class="weather_container">
+            <img src="" alt="Image représentant la météo">
+            <p class="temp"></p>
+            <p class="description"></p>
+        </div>
+        <div class="weather_details">
+            <div class="humidity">
+                <i class="fa-solid fa-water"></i>
+                <div class="humidity_text">
+                    <span></span>
+                    <p>Humidity</p>
+                </div>
+            </div>
+            <div class="wind">
+                <i class="fa-solid fa-wind"></i>
+                <div class="wind_text">
+                    <span></span>
+                    <p>Wind </p>
+                </div>
+            </div>
+            <div class="pressure">
+                <i class="fa-solid fa-cloud"></i>
+                <div class="pressure_text">
+                    <span></span>
+                    <p>Pressure</p>
+                </div>
+            </div>
+        </div>
+    </div>
+        
+
+
+
+
+
+
+
+    <script src="index.js"></script>    
+</body>
+</html>
