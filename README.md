@@ -10,4 +10,4 @@ Projet basé sur Html/SASS/Js avec Call Api Rest.
 Application qui ma permit de me former à SASS
 
 
-**Lien du site** : [WeatherApp](https://dirtdover.github.io/weatherApp/)
+**Lien du site** : [WeatherApp](https://dirtdover.github.io/WeatherApp/)
